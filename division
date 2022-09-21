@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int div(int, int);
+    int x,n;
+    printf("enter values");
+    scanf("%d%d",&x,&n);
+    printf("div = %d",div(x,n));
+    return 0;
+}
+int div (int x, int n)
+ {
+     return(x/n);
+ }
